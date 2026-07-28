@@ -1,17 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-DO">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi Servicios Casa & Oficina | Expertos en Climatización, Electricidad, Herrería y Más</title>
+    
+	<!-- SEO Meta Tags -->
+	<title>Multi Servicios Casa & Oficina en Santo Domingo | Reparación y Mantenimiento</title>
+	<meta name="description" content="Expertos en reparación de aires acondicionados, cuartos fríos, electricidad, inversores y herrería en Santo Domingo, República Dominicana. Servicio a domicilio garantizado.">
+	<meta name="keywords" content="reparación aires acondicionados Santo Domingo, electricista Santo Domingo, instalación de inversores, reparación de neveras, herrería Santo Domingo, República Dominicana">
+	<meta name="author" content="Multi Servicios Casa & Oficina">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://alexandracruz.github.io/servicios_casa_oficina/">
+
+	<!-- Open Graph / Social Media Meta Tags -->
+	<meta property="og:title" content="Multi Servicios Casa & Oficina en Santo Domingo | Climatización y Electricidad">
+	<meta property="og:description" content="Servicios profesionales de reparación de aires, neveras, cuartos fríos, electricidad e inversores en Santo Domingo, RD.">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="es_DO">
+	<meta property="og:site_name" content="Multi Servicios Casa & Oficina">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; }
     </style>
+
+    <!-- Schema.org JSON-LD para Negocio Local (Mejora drásticamente el SEO Local) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Multi Servicios Casa & Oficina",
+      "image": "https://tu-usuario.github.io/tu-repositorio/Slack%20icon.jpg",
+      "@id": "https://tu-usuario.github.io/tu-repositorio/",
+      "url": "https://tu-usuario.github.io/tu-repositorio/",
+      "telephone": "+18297664304",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DO",
+        "addressLocality": "Santo Domingo",
+        "addressRegion": "Santo Domingo"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.4861,
+        "longitude": -69.9312
+      },
+      "description": "Servicios de climatización, reparación de aires acondicionados, cuartos fríos, electricidad, inversores, herrería y línea blanca en República Dominicana.",
+      "serviceArea": {
+        "@type": "Country",
+        "name": "Dominican Republic"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Mantenimiento y Reparación",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reparación y Mantenimiento de Aires Acondicionados"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reparación de Cuartos Fríos y Neveras"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Servicios de Electricidad e Inversores"
+            }
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 <body class="bg-slate-50 text-slate-800">
 
@@ -19,8 +96,8 @@
     <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
         <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
             <div class="flex items-center space-x-3 mb-3 md:mb-0">
-                <div class="bg-blue-600 text-white p-2.5 rounded-xl shadow">
-                    <i class="fa-solid fa-house-chimney text-xl"></i>
+                <div class="h-12 w-12 rounded-xl shadow overflow-hidden bg-white flex flex-shrink-0 items-center justify-center">
+                    <img src="\IMAGES\JC-LOGO.png" alt="Logo de la empresa JC" class="w-full h-full object-contain">
                 </div>
                 <div>
                     <span class="text-xs uppercase tracking-wider text-blue-400 font-semibold">Soluciones Integrales</span>
@@ -28,11 +105,11 @@
                 </div>
             </div>
             <div class="flex items-center space-x-4">
-                <a href="tel:8297664304" class="flex items-center space-x-2 text-sm bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition">
+                <a href="tel:8297664304" class="flex items-center space-x-2 text-sm bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition" aria-label="Llamar al 829-766-4304">
                     <i class="fa-solid fa-phone text-blue-400"></i>
                     <span class="font-semibold">829-766-4304</span>
                 </a>
-                <a href="https://wa.me/18297664304?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20Multi%20Servicios%20Casa%20%26%20Oficina" target="_blank" class="flex items-center space-x-2 text-sm bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow">
+                <a href="https://wa.me/18297664304?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20Multi%20Servicios%20Casa%20%26%20Oficina" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 text-sm bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg font-medium transition shadow" aria-label="Contactar por WhatsApp">
                     <i class="fa-brands fa-whatsapp text-lg"></i>
                     <span>WhatsApp</span>
                 </a>
@@ -45,10 +122,10 @@
         <div class="max-w-4xl mx-auto relative z-10">
             <span class="bg-blue-500/20 text-blue-300 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-widest border border-blue-500/30">República Dominicana</span>
             <h2 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 leading-tight">Soluciones Profesionales para tu Hogar y Negocio</h2>
-            <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">Climatización, electricidad general, inversores, herrería de alta calidad, mamparas de ducha, abanicos, lavadoras y secadoras. Todo en un solo lugar con garantía y profesionalismo.</p>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">Especialistas en climatización, electricidad general, inversores, herrería de alta calidad, mamparas de ducha, abanicos, lavadoras y secadoras. Todo en un solo lugar con garantía y profesionalismo en RD.</p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="#servicios" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg transition">Ver Nuestros Servicios</a>
-                <a href="https://wa.me/18297664304?text=Hola,%20deseo%20cotizar%20un%20servicio" target="_blank" class="bg-white hover:bg-slate-100 text-slate-900 font-semibold px-8 py-3.5 rounded-xl shadow-lg transition">Cotizar por WhatsApp</a>
+                <a href="https://wa.me/18297664304?text=Hola,%20deseo%20cotizar%20un%20servicio" target="_blank" rel="noopener noreferrer" class="bg-white hover:bg-slate-100 text-slate-900 font-semibold px-8 py-3.5 rounded-xl shadow-lg transition">Cotizar por WhatsApp</a>
             </div>
         </div>
     </section>
@@ -58,188 +135,248 @@
 
         <!-- Category 1: Refrigeración y Climatización -->
         <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden p-6 md:p-10">
-            <div class="flex items-center space-x-4 mb-6">
-                <div class="bg-blue-100 text-blue-600 p-3.5 rounded-xl text-2xl">
+            <header class="flex items-center space-x-4 mb-6">
+                <div class="bg-blue-100 text-blue-600 p-3.5 rounded-xl text-2xl" aria-hidden="true">
                     <i class="fa-solid fa-snowflake"></i>
                 </div>
                 <div>
                     <h3 class="text-2xl font-bold text-slate-900">Ingeniería en Refrigeración y Aires Acondicionados</h3>
                     <p class="text-sm text-slate-500">Mantenimiento, instalación y reparación experta para espacios residenciales y comerciales.</p>
                 </div>
-            </div>
+            </header>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
                     <div>
-                        <div class="text-blue-600 font-bold text-lg mb-1">Limpieza Profesional</div>
-                        <p class="text-slate-600 text-sm">Servicio profundo para unidades de aire acondicionado para garantizar máxima eficiencia y aire puro. <br><br><strong>A partir de $2,000 DOP</strong> (condiciones aplican).</p>
+                        <h4 class="text-blue-600 font-bold text-lg mb-1">Limpieza Profesional de Aires</h4>
+                        <p class="text-slate-600 text-sm">Servicio profundo para unidades de aire acondicionado para garantizar máxima eficiencia y aire puro. <br><br><strong>A partir de RD$2,000</strong> (condiciones aplican).</p>
                     </div>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
                     <div>
-                        <div class="text-blue-600 font-bold text-lg mb-1">Instalación Experta</div>
-                        <p class="text-slate-600 text-sm">Instalación profesional de aires acondicionados. El precio final se determina tras un chequeo y evaluación previa en el lugar.</p>
+                        <h4 class="text-blue-600 font-bold text-lg mb-1">Instalación Experta</h4>
+                        <p class="text-slate-600 text-sm">Instalación profesional de aires acondicionados Inverter y estándar. El precio final se determina tras un chequeo y evaluación previa en el lugar.</p>
                     </div>
-                    <div class="mt-4 bg-blue-100/60 p-3 rounded-lg border border-blue-200">
-                        <p class="text-sm text-blue-900 font-bold mb-1"><i class="fa-solid fa-clipboard-check mr-1"></i> Costo de Chequeo</p>
-                        <p class="text-blue-800 font-semibold text-sm">A partir de $500 DOP</p>
-                        <p class="text-xs text-blue-700 mt-1 leading-snug">Nota: Este es el precio mínimo. El costo final del chequeo aumentará dependiendo de la ubicación, dificultad y del servicio específico del que se trate.</p>
-                    </div>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100 flex flex-col justify-between">
                     <div>
-                        <div class="text-blue-600 font-bold text-lg mb-1">Reparación & Cuartos Fríos</div>
-                        <p class="text-slate-600 text-sm">Reparación de aires acondicionados, neveras y cuartos fríos. (Contáctanos para evaluación y cotización. Aplican tarifas de chequeo a partir de $500 DOP).</p>
+                        <h4 class="text-blue-600 font-bold text-lg mb-1">Reparación de Cuartos Fríos y Neveras</h4>
+                        <p class="text-slate-600 text-sm">Expertos en diagnóstico y solución de averías para cámaras frigoríficas, cuartos fríos, neveras, congeladores y equipos de refrigeración.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <!-- Gallery 1 -->
             <div>
-                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería de Trabajos - Climatización y Refrigeración</h4>
+                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería - Climatización y Refrigeración</h4>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 1 (Aire Acondicionado)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 2 (Mantenimiento)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 3 (Cuartos Fríos)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 4 (Neveras)</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Aire Acondicionado</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Mantenimiento</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Cuartos Fríos</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Neveras</div>
                 </div>
             </div>
         </section>
 
         <!-- Category 2: Electricidad e Inversores -->
         <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden p-6 md:p-10">
-            <div class="flex items-center space-x-4 mb-6">
-                <div class="bg-amber-100 text-amber-600 p-3.5 rounded-xl text-2xl">
+            <header class="flex items-center space-x-4 mb-6">
+                <div class="bg-amber-100 text-amber-600 p-3.5 rounded-xl text-2xl" aria-hidden="true">
                     <i class="fa-solid fa-bolt"></i>
                 </div>
                 <div>
                     <h3 class="text-2xl font-bold text-slate-900">Electricidad General e Inversores</h3>
                     <p class="text-sm text-slate-500">Soluciones eléctricas completas y sistemas de respaldo para mantener tu hogar siempre funcional.</p>
                 </div>
-            </div>
+            </header>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-amber-600 font-bold text-lg mb-1">Electricista General</div>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-amber-600 font-bold text-lg mb-1">Electricista General</h4>
                     <p class="text-slate-600 text-sm">Servicio de electricista disponible para cualquier reparación, avería o instalación eléctrica que necesites en tu casa o negocio.</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-amber-600 font-bold text-lg mb-1">Instalación de Inversores</div>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-amber-600 font-bold text-lg mb-1">Instalación de Inversores</h4>
                     <p class="text-slate-600 text-sm">Configuración e instalación completa de sistemas de inversores residenciales (inversor y 2 baterías, 4 baterías, etc.).</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-amber-600 font-bold text-lg mb-1">Cambio de Baterías</div>
-                    <p class="text-slate-600 text-sm">Sustitución y mantenimiento de bancos de baterías para asegurar la autonomía de tu sistema.</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-amber-600 font-bold text-lg mb-1">Mantenimiento Preventivo</div>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-amber-600 font-bold text-lg mb-1">Cambio de Baterías</h4>
+                    <p class="text-slate-600 text-sm">Sustitución y mantenimiento de bancos de baterías para asegurar la autonomía de tu sistema de inversor.</p>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-amber-600 font-bold text-lg mb-1">Mantenimiento Preventivo</h4>
                     <p class="text-slate-600 text-sm">Revisiones técnicas periódicas para alargar la vida útil de tu inversor y conexiones eléctricas.</p>
-                </div>
+                </article>
             </div>
 
             <!-- Gallery 2 -->
             <div>
-                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería de Trabajos - Electricidad e Inversores</h4>
+                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería - Electricidad e Inversores</h4>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 1 (Servicio Eléctrico)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 2 (Instalación de Inversor)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 3 (Banco de Baterías)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 4 (Mantenimiento)</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Electricidad</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Inversor</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Baterías</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Mantenimiento</div>
                 </div>
             </div>
         </section>
 
         <!-- Category 3: Herrería, Puertas y Shutters -->
         <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden p-6 md:p-10">
-            <div class="flex items-center space-x-4 mb-6">
-                <div class="bg-indigo-100 text-indigo-600 p-3.5 rounded-xl text-2xl">
+            <header class="flex items-center space-x-4 mb-6">
+                <div class="bg-indigo-100 text-indigo-600 p-3.5 rounded-xl text-2xl" aria-hidden="true">
                     <i class="fa-solid fa-shield-halved"></i>
                 </div>
                 <div>
                     <h3 class="text-2xl font-bold text-slate-900">Herrería, Portones, Shutters y Puertas Enrollables</h3>
-                    <p class="text-sm text-slate-500">Seguridad y elegancia robusta para proteger tu hogar o negocio.</p>
+                    <p class="text-sm text-slate-500">Seguridad y elegancia robusta para proteger tu hogar o negocio en RD.</p>
                 </div>
-            </div>
+            </header>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-indigo-600 font-bold text-lg mb-1">Portones & Verjas en Hierro</div>
-                    <p class="text-slate-600 text-sm">Portones grandes y elegantes en hierro, puertas, ventanas, verjas y cerramientos para galerías o balcones.</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-indigo-600 font-bold text-lg mb-1">Puertas Enrollables</div>
-                    <p class="text-slate-600 text-sm">Venta e instalación de puertas enrollables metálicas para comercios y residencias.</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-indigo-600 font-bold text-lg mb-1">Shutters de Seguridad</div>
-                    <p class="text-slate-600 text-sm">Instalación de shutters protectores para máxima seguridad contra intrusos y tormentas.</p>
-                </div>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-indigo-600 font-bold text-lg mb-1">Portones & Verjas en Hierro</h4>
+                    <p class="text-slate-600 text-sm">Fabricación de portones grandes y elegantes en hierro, puertas, ventanas, verjas y cerramientos para galerías o balcones.</p>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-indigo-600 font-bold text-lg mb-1">Puertas Enrollables</h4>
+                    <p class="text-slate-600 text-sm">Venta e instalación de puertas enrollables metálicas para mayor seguridad en comercios y residencias.</p>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-indigo-600 font-bold text-lg mb-1">Shutters de Seguridad</h4>
+                    <p class="text-slate-600 text-sm">Instalación de shutters protectores para máxima seguridad contra intrusos y tormentas (huracanes).</p>
+                </article>
             </div>
 
             <!-- Gallery 3 -->
             <div>
-                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería de Trabajos - Portones y Herrería</h4>
+                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería - Portones y Herrería</h4>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 1 (Portón Elegante)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 2 (Puerta Enrollable)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 3 (Verjas y Balcón)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 4 (Shutters)</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Portón Hierro</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Puerta Enrollable</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Verjas</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Shutters</div>
                 </div>
             </div>
         </section>
 
         <!-- Category 4: Electrodomésticos, Abanicos y Mamparas de Baño -->
         <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden p-6 md:p-10">
-            <div class="flex items-center space-x-4 mb-6">
-                <div class="bg-emerald-100 text-emerald-600 p-3.5 rounded-xl text-2xl">
+            <header class="flex items-center space-x-4 mb-6">
+                <div class="bg-emerald-100 text-emerald-600 p-3.5 rounded-xl text-2xl" aria-hidden="true">
                     <i class="fa-solid fa-house"></i>
                 </div>
                 <div>
                     <h3 class="text-2xl font-bold text-slate-900">Servicios del Hogar y Línea Blanca</h3>
-                    <p class="text-sm text-slate-500">Comodidad y funcionalidad para cada rincón de tu casa.</p>
+                    <p class="text-sm text-slate-500">Comodidad, estética y funcionalidad para cada rincón de tu casa.</p>
                 </div>
-            </div>
+            </header>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-emerald-600 font-bold text-lg mb-1">Lavadoras y Secadoras</div>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-emerald-600 font-bold text-lg mb-1">Lavadoras y Secadoras</h4>
                     <p class="text-slate-600 text-sm">Reparación, mantenimiento preventivo y servicio técnico especializado para lavadoras y secadoras de todo tipo (digitales y no digitales).</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-emerald-600 font-bold text-lg mb-1">Abanicos de Techo</div>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-emerald-600 font-bold text-lg mb-1">Abanicos de Techo</h4>
                     <p class="text-slate-600 text-sm">Instalación segura y balanceada de abanicos de techo en cualquier área de tu hogar u oficina.</p>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-100">
-                    <div class="text-emerald-600 font-bold text-lg mb-1">Mamparas de Cristal para Ducha</div>
-                    <p class="text-slate-600 text-sm">Instalación de modernos cristales para duchas (reemplazando las tradicionales cortinas de plástico por elegancia y durabilidad).</p>
-                </div>
+                </article>
+                <article class="bg-slate-50 p-5 rounded-xl border border-slate-100">
+                    <h4 class="text-emerald-600 font-bold text-lg mb-1">Mamparas de Cristal para Ducha</h4>
+                    <p class="text-slate-600 text-sm">Instalación de modernos cristales para duchas (mamparas de baño), reemplazando las tradicionales cortinas de plástico por elegancia y durabilidad.</p>
+                </article>
             </div>
 
             <!-- Gallery 4 -->
             <div>
-                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería de Trabajos - Hogar y Mamparas</h4>
+                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Galería - Hogar y Mamparas</h4>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 1 (Mampara de Cristal)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 2 (Abanico de Techo)</div>
-                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto 3 (Lavadoras y Secadoras)</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Mampara Cristal</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Abanico Techo</div>
+                    <div class="bg-slate-100 h-48 rounded-xl flex items-center justify-center border-2 border-dashed border-slate-300 text-slate-400 text-sm p-4 text-center hover:bg-slate-200 transition cursor-pointer">Foto Reparación Lavadora</div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Seccion Movida al Final: Tarifas de Chequeo -->
+        <section class="bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-800 overflow-hidden p-6 md:p-10 relative">
+            <!-- Decorative background element -->
+            <div class="absolute top-0 right-0 -mt-4 -mr-4 w-32 h-32 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-50 pointer-events-none" aria-hidden="true"></div>
+            
+            <header class="mb-8 relative z-10">
+                <h3 class="text-2xl md:text-3xl font-bold text-white mb-2 flex items-center">
+                    <i class="fa-solid fa-clipboard-check text-blue-400 mr-3"></i> Tarifas de Chequeo y Evaluación Técnica
+                </h3>
+                <p class="text-slate-300 text-sm max-w-3xl">Nota importante: El costo final del chequeo aumentará dependiendo de la ubicación (distancia) y del servicio específico del que se trate. Los precios a continuación son las <strong>tarifas mínimas base</strong>, aplicables principalmente a nuestros servicios de climatización y refrigeración.</p>
+            </header>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 relative z-10">
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Cuarto Frío <span class="font-normal text-slate-400 block text-xs">(Cámara Frigorífica)</span></h4>
+                    <div class="sm:text-right">
+                        <span class="block text-blue-400 font-bold text-lg">Mínimo: RD$2,500</span>
+                        <span class="block text-xs text-slate-400 mt-0.5">Promedio: RD$4,500 - RD$6,000<br>(Varía según tamaño e industria)</span>
+                    </div>
+                </article>
+                
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Máquinas de Hielo</h4>
+                    <div class="sm:text-right">
+                        <span class="block text-blue-400 font-bold text-lg">Mínimo: RD$2,000</span>
+                        <span class="block text-xs text-slate-400 mt-0.5">Promedio: RD$3,500</span>
+                    </div>
+                </article>
+                
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Exhibidoras Comerciales y Congeladores</h4>
+                    <div class="sm:text-right">
+                        <span class="block text-blue-400 font-bold text-lg">Mínimo: RD$1,500</span>
+                    </div>
+                </article>
+                
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Aire Acondicionado <span class="font-normal text-slate-400 block text-xs">(Split 12k - 24k BTU)</span></h4>
+                    <div class="sm:text-right">
+                        <span class="block text-blue-400 font-bold text-lg">Mínimo: RD$1,200</span>
+                    </div>
+                </article>
+
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Nevera Doméstica <span class="font-normal text-slate-400 block text-xs">(Side by Side / Inverter)</span></h4>
+                    <div class="sm:text-right">
+                        <span class="block text-blue-400 font-bold text-lg">Mínimo: RD$1,200</span>
+                    </div>
+                </article>
+
+                <article class="bg-slate-800/80 p-5 rounded-xl border border-slate-700 shadow-sm flex flex-col sm:flex-row justify-between sm:items-center gap-3 hover:bg-slate-800 transition">
+                    <h4 class="text-base font-semibold text-white">Otros Chequeos Generales / Básicos</h4>
+                    <div class="sm:text-right">
+                        <span class="block text-emerald-400 font-bold text-lg">A partir de RD$500</span>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="mt-8 text-center relative z-10">
+                <a href="https://wa.me/18297664304?text=Hola,%20deseo%20agendar%20un%20chequeo%20técnico" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-xl transition shadow-lg">
+                    <i class="fa-solid fa-calendar-check mr-2"></i> Agendar Evaluación
+                </a>
             </div>
         </section>
 
     </main>
 
     <!-- Contact & Footer Section -->
-    <footer class="bg-slate-900 text-white py-16 px-4 mt-20 border-t border-slate-800">
+    <footer class="bg-slate-950 text-white py-16 px-4 border-t border-slate-800">
         <div class="max-w-4xl mx-auto text-center space-y-6">
             <h3 class="text-3xl font-bold">¿Necesitas alguno de nuestros servicios?</h3>
-            <p class="text-slate-400 max-w-xl mx-auto">Contáctanos hoy mismo por llamada o escríbenos directamente por WhatsApp para recibir atención personalizada y cotizaciones.</p>
+            <p class="text-slate-400 max-w-xl mx-auto">Contáctanos hoy mismo por llamada o escríbenos directamente por WhatsApp para recibir atención personalizada y cotizaciones en República Dominicana.</p>
             
             <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
-                <a href="tel:8297664304" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-semibold px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition border border-slate-700">
+                <a href="tel:8297664304" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-semibold px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition border border-slate-700" aria-label="Llamar para cotizar">
                     <i class="fa-solid fa-phone text-blue-400 text-lg"></i>
                     <span class="text-lg">829-766-4304</span>
                 </a>
-                <a href="https://wa.me/18297664304?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20Multi%20Servicios%20Casa%20%26%20Oficina" target="_blank" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition shadow-lg">
+                <a href="https://wa.me/18297664304?text=Hola,%20estoy%20interesado%20en%20sus%20servicios%20de%20Multi%20Servicios%20Casa%20%26%20Oficina" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-4 rounded-xl flex items-center justify-center space-x-3 transition shadow-lg" aria-label="Cotizar por WhatsApp">
                     <i class="fa-brands fa-whatsapp text-2xl"></i>
                     <span class="text-lg">Escribir por WhatsApp</span>
                 </a>
@@ -247,13 +384,12 @@
 
             <div class="pt-12 border-t border-slate-800 text-xs text-slate-500">
                 <p>&copy; 2026 Multi Servicios Casa & Oficina. Todos los derechos reservados. República Dominicana.</p>
-                <p class="mt-2">Listo para publicar en GitHub Pages (`index.html`).</p>
             </div>
         </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/18297664304?text=Hola,%20deseo%20información%20sobre%20sus%20servicios" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition transform hover:scale-110 z-50">
+    <a href="https://wa.me/18297664304?text=Hola,%20deseo%20información%20sobre%20sus%20servicios" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition transform hover:scale-110 z-50" aria-label="Chat directo por WhatsApp">
         <i class="fa-brands fa-whatsapp text-3xl"></i>
     </a>
 
